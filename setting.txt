@@ -1,0 +1,92 @@
+ {
+"workbench.iconTheme": "material-icon-theme",
+ 
+"px-to-rem.px-per-rem":100, 
+
+"material-icon-theme.showUpdateMessage":false, 
+
+"files.autoSave": "afterDelay", 
+
+"atomKeymap.promptV3Features":true, 
+
+"editor.multiCursorModifier": "ctrlCmd", 
+
+"editor.formatOnPaste": true, 
+
+// "emmet.showAbbreviationSuggestions": true,
+
+// "emmet.showExpandedAbbreviation": "always"
+
+// "editor.formatOnType": true,
+
+"workbench.colorTheme": "One Monokai",
+
+// "liveServer.settings.donotShowInfoMsg": true,
+
+"files.associations": {
+    "*.vue": "vue"
+},
+
+"emmet.syntaxProfiles": {
+    
+// "javascript": "jsx",
+    
+// "react-html":"html",
+    
+// "react":"html"
+    
+"vue-html":"html",
+    
+"vue":"html"
+    },
+    
+"sublimeTextKeymap.promptV3Features": true,
+    
+"editor.snippetSuggestions": "top",
+    
+"sync.gist": "60c81f09f6f1aa66a418f44728db136b",
+    
+"sync.lastUpload": "2017-12-12T08:21:16.742Z",
+   
+ "sync.autoDownload": false,
+    
+"sync.autoUpload": false,
+    
+"sync.lastDownload": "",
+    
+"sync.forceDownload": false,
+    
+"sync.anonymousGist": false,
+    
+"sync.host": "",
+    
+"sync.pathPrefix": "",
+    
+"sync.quietSync": false,
+    
+"sync.askGistName": false
+    
+// "vim.disableAnnoyingNeovimMessage": true
+    
+// "eslint.validate": [
+    
+//     "javascript",
+    
+//     "javascriptreact",
+    
+//     "html",
+    
+//     "vue"
+    
+//     ],
+    
+//     "eslint.options": {
+    
+//         "plugins": [
+    
+//             "html"
+    
+//         ]
+    
+//     }
+}

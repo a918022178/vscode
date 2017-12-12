@@ -1,0 +1,90 @@
+高德：5000e47b39989ac2803c8ec20e3c93b7
+IR4HN51YApGRLGDktlBNnFIDGApQdWQN
+svn：svn://222.244.144.157:7979/web/ds.qqkt.com/dev/v1.0.1
+https://api.douban.com/v2/movie/in_theaters
+
+http://code.jquery.com/jquery-latest.js
+
+ .tab::-webkit-scrollbar {display: none;}  去除滚动条
+
+filter：blur（10px）img模糊
+
+$("img").click(function(){
+$(this).wrap('<a href='+$(this)[0].src+'></a>')
+})点击放大
+
+ <a href="javascript:history.go(1);">前进一次</a>
+javascript:void(0)
+
+router-link-active
+
+AppID(小程序ID)	wxfe23aa6b1e66ac73   AppSecret  16293e01d47465c8fe89d077a103f5d7
+https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=&type=jsapi
+
+window.location.href=     window.history.back(-1)  window.location.reload(true);
+
+function getMyDay(date){
+var week;
+if(date.getDay()==0) week="周日"
+if(date.getDay()==1) week="周一"
+if(date.getDay()==2) week="周二"
+if(date.getDay()==3) week="周三"
+if(date.getDay()==4) week="周四"
+if(date.getDay()==5) week="周五"
+if(date.getDay()==6) week="周六"
+return week;
+}
+var w1 = getMyDay(new Date("2015-7-12"));
+
+三角
+display: inline-block;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0,0);
+
+<!-- 选择照片 -->
+<input type=file accept="image/*">
+<!-- 选择视频 -->
+<input type=file accept="video/*">
+
+string.search(string);
+行数
+function countLines(ele) {
+     var styles = window.getComputedStyle(ele, null);
+     var lh = parseInt(styles.lineHeight, 10);
+     var h = parseInt(styles.height, 10);
+     var lc = Math.round(h / lh);
+     console.log('line count:', lc, 'line-height:', lh, 'height:', h);
+     return lc;
+  }
+
+
+calc(100% - 40px)
+毫秒Date.now()
+charCodeAt(0) 指定字母编码
+this.$nextTick(function (){ })
+
+supervisor node更新
+
+mongod --storageEngine mmapv1 --dbpath c:
+
+    var browser={
+        versions:function(){
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*!/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端
+                iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+                qq: u.match(/\sQQ/i) == " qq" //是否QQ
+            };
+        }(),
+        language:(navigator.browserLanguage || navigator.language).toLowerCase()
+    } ;

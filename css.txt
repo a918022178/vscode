@@ -1,0 +1,19 @@
+UI Sketch
+<img src="about:blank" alt>
+
+background:linear-gradient(to right,#1accff,#0693f6);
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+div变input         <div contenteditable="true"></div>
+document.documentElement.clientHeight 屏幕可用高度
+
+<transition name="mini">
+&.mini-enter-active, &.mini-leave-active
+        transition: all 0.4s
+      &.mini-enter, &.mini-leave-to
+        opacity: 0
+
+var sTop=document.body.scrollTop+document.documentElement.scrollTop;

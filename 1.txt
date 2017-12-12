@@ -1,0 +1,26 @@
+
+npm i cnpm -g
+
+npm install nrm -g
+nrm ls
+nrm use taobao
+i webpack -g
+
+
+http://www.cnblogs.com/noobfly/p/6207832.html
+
+http://www.zhangxinxu.com/jq/stylus/
+
+http://mint-ui.github.io/#!/zh-cn
+
+33060
+
+db.collection.drop() 
+是用来从数据库中删除一个集合。
+
+http://map.qq.com/m/index/nav/type=bus&cond=3&sword=我的位置&spointx=112.938814&spointy=28.228209&eword=贝拉小镇&epointx=112.95451&epointy=28.22297&startId=&destId=6527512162143693059&canclebutton=
+http://m.amap.com/navigation/index/carmap/saddr=112.954834%2C28.224157%2C火车站&daddr=112.721939%2C28.236365%2C贝拉小镇
+https://map.baidu.com/mobile/webapp/place/linesearch/foo=bar/end=word=贝拉小镇&tab=line?third_party=lbscomponents
+
+E:\w\UPUPW_NP5.5_64-1511\UPUPW_NP5.5_64\vhosts
+
