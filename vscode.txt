@@ -1,4 +1,4 @@
-GitHub Token: 66a8950df2619c9151f1afb4f9135eaff2a26482
+GitHub Token: bbc56f09ad00ed37706eca2c46cff7588365762e
 GitHub 
 Gist: 60c81f09f6f1aa66a418f44728db136b
 
