@@ -17,3 +17,24 @@ document.documentElement.clientHeight 屏幕可用高度
         opacity: 0
 
 var sTop=document.body.scrollTop+document.documentElement.scrollTop;
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1″/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+font-family:"PingFangSC-Light","PingFang SC","PingFang SC UltraLight","Microsoft YaHei","sans-serif";
+
+输入框黄色input:-webkit-autofill{
+        -webkit-box-shadow: 0 0 0 1000px white inset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+

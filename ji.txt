@@ -88,3 +88,13 @@ mongod --storageEngine mmapv1 --dbpath c:
         }(),
         language:(navigator.browserLanguage || navigator.language).toLowerCase()
     } ;
+
+function isPhone(){//判断是否是苹果系统
+	return /(iPhone|iPod|iPad);?/i.test(navigator.userAgent);
+}
+function isAndriod(){//判断是否是安卓系统
+	return /android/i.test(navigator.userAgent);
+}
+let formData = new FormData();
+Object.prototype.toString.call([]) // "[object Array]"
+Object.prototype.toString.call({}) // "[object Object]"
